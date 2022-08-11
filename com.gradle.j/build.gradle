@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'org.automation'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+
+}
+
+dependencies {
+    testImplementation group: 'org.testng', name: 'testng', version: '7.5'
+
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.3.0'
+
+    implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.18.1'
+
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.2.2'
+
+    implementation group: 'commons-io', name: 'commons-io', version: '2.11.0'
+
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.18.0'
+
+
+
+
+
+
+}
+
+test {
+    useTestNG()
+
+}

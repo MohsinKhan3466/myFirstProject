@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestLoga" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-08-08T06:00:10" hostname="PLK-A-00065" time="71.662">
+  <properties/>
+  <testcase name="homePageTest" classname="TestLoga" time="0.412"/>
+  <testcase name="registration" classname="TestLoga" time="56.382"/>
+  <testcase name="logIn" classname="TestLoga" time="14.788"/>
+  <system-out><![CDATA[Title Matched
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
